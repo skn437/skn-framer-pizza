@@ -1,0 +1,21 @@
+@mixin base_topping {
+  position: relative;
+  top: 60%;
+  
+  #heading {
+    position: relative;
+    left: 160%;
+    border-bottom: 1px solid white;
+    margin: 5px;
+    color: white;
+  }
+  
+  #button {
+    position: absolute;
+    left: 220%;
+    top: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: transparent;
+  }
+}

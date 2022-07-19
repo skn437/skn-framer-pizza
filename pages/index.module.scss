@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+$font: 'Roboto Slab', serif;
+
+#container {
+  position: relative;
+  top: 160%;
+  
+  #welcome {
+    position: relative;
+    left: 150%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: $font;
+  }
+  
+  #button {
+    position: relative;
+    left: 167%;
+    font-family: $font;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+  }
+}
+

@@ -1,0 +1,6 @@
+@import "_SassExtension.scss";
+
+#base {
+  @include base_topping;
+}
+
